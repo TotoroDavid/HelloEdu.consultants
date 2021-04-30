@@ -10,7 +10,7 @@ I worked on the design of the full page as well as on the logo._
 
 If you want to see the website template as it was designed, see ** Deployment ** in the following Link
 
-                                    https://helloeduau.netlify.app/
+                                    <link src="https://helloeduau.netlify.app/">
 
 ## Built with 🛠️
 
@@ -31,6 +31,6 @@ _in the project I used the next tools_
 
 - **David Toro** - [TotoroDavid](https://github.com/TotoroDavid)
 
-⌨️ with ❤️ by [David Toro](https://github.com/TotoroDavid) 😊
-
 <img src="https://github.com/TotoroDavid/HelloEdu.consultants/blob/master/img/pic/Screen%20Shot%202021-04-30%20at%206.50.34%20am.png?raw=true">
+
+⌨️ with ❤️ by [David Toro](https://github.com/TotoroDavid) 😊
