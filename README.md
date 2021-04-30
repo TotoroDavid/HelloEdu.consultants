@@ -10,7 +10,7 @@ I worked on the design of the full page as well as on the logo._
 
 If you want to see the website template as it was designed, see ** Deployment ** in the following Link
 
-                                    <link src="https://helloeduau.netlify.app/">
+                                          https://helloeduau.netlify.app/
 
 ## Built with 🛠️
 
