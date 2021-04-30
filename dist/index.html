@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./img/logo__1_-removebg-preview (2) (1).png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- CSS only -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="./sass/main.css">
+    <title>Helloedu.Consultans</title>
+</head>
+
+<body>
+    <!-- pagina que se desvanece -->
+    <div class="section">
+        <div class="container overlay">
+            <h2>Hello <br> Edu <span>consultanst</span></h2>
+        </div>
+    </div>
+    <!-- navbar -->
+    <header class="header_01">
+        <nav class="navbar navbar-expand-lg navbar-light navegador">
+            <!-- logo -->
+            <img src="./img/logo1.png" class="logo" alt="">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- hover img -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav ">
+                    <li class="nav-item ">
+                        <a class="nav-link inicio" href="#">Inicio <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Programas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link Nosotros" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link contacto" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- sliderBar -->
+    <div class="slideshow-container">
+        <!-- hover portada -->
+        <div class="myslides">
+            <h2>Hello <br> Edu <span>consultanst</span></h2>
+            <img src="./img/koala.png" class="p_img img_1" alt="" width="530px">
+            <div class="p_detail">
+                <h3>EMIGRAR</h3>
+                <h4>A AUSTRALIA ? </h4>
+                <p>Como podemos ayudarte a hacer realidad tus sueños, vive la experiencia de tu vida.</p>
+                <ul>
+                    <li>
+                        <i class="fa fa-angle-right"></i> Conoce Los Planes Que Tenemos.
+                    </li>
+                </ul>
+                <a href="#" class="boton_personalizado">Ver mas</a>
+            </div>
+        </div>
+        <!-- hover segunda -->
+        <div class="myslides">
+            <h2>Hello <br> Edu <span>consultanst</span></h2>
+            <img src="./img/kanguro!! (1).png" class="p_img img_2 " alt="" width="800px">
+            <div class="p_detail">
+                <h3>ESTUDIAR</h3>
+                <h4>EN AUSTRALIA</h4>
+                <p>Hacemos realidad tus sueños de vivir, trabajar y estudiar en Australia</p>
+                <ul>
+                    <li>
+                        <i class="fa fa-angle-right"></i>Estudia con beneficios unicos.
+                    </li>
+                </ul>
+                <a href="" class="boton_personalizado">Ver mas</a>
+            </div>
+        </div>
+        <!-- hover 3ra cara -->
+        <div class="myslides">
+            <h2>Hello <br> Edu <span>consultanst</span></h2>
+            <img src="./img//koala_PNG6.png" class="p_img img_3" alt="" width="380px">
+            <div class="p_detail">
+                <h3>Viajes</h3>
+                <h4>Idiomas y Educacion</h4>
+                <p>otra forma de ver el mundo por medio de la educación, y el intercambio cultural.</p>
+                <ul>
+                    <li>
+                        <i class="fa fa-angle-right"></i> "programas académicos".
+                    </li>
+                </ul>
+                <a href="" class="boton_personalizado">Ver mas</a>
+            </div>
+        </div>
+        <!-- Botones!! -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+        <a class="next" onclick="plusSlides(1)">&#10095</a>
+    </div>
+    <!-- services -->
+    <div class="body_contedor">
+        <div class="container_services">
+            <div class="card">
+                <div class="content_service">
+                    <h2>SERVICES</h2>
+                    <h3>ESTUDIANTE VISA.</h3>
+                    <p>Conseguir la visa para estudiar en Australia lleva tiempo pero puede ser un trámite sorprendentemente fácil. Las universidades, las instituciones terciarias y las escuelas continúan muy interesadas en recibir estudiantes provenientes
+                        de todos los países.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content_service">
+                    <h2>SERVICES</h2>
+                    <h3>VISADO DE PAREJA</h3>
+                    <p>Ya sea dentro o fuera de Australia, podemos ayudarlo en una variedad de migraciones familiares que incluyen visas de familiares restantes. Contáctenos para obtener información actualizada sobre las opciones de migración familiar.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content_service">
+                    <h2>SERVICES</h2>
+                    <h3>INMIGRACION</h3>
+                    <p>Los servicios incluyen asesoramiento e información sobre inmigración basada en la legislación vigente, evaluación completa de las opciones de visas, requisitos, el proceso de migración, preparación de solicitudes de evaluación de visas
+                        y habilidades y asesoramiento para solicitudes de revisión.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- carousel -->
+    <section class="home">
+        <div class="slider">
+            <div class="slide active" style="background-image: url('./img/sydney.jpg')">
+                <div class="container">
+                    <div class="caption">
+                        <h1>SYDNEY.</h1>
+                        <p class="cities">DESTINOS MÁS VISITADOS.</p>
+                        <a href="">Ver mas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('./img/melbourne.jpg')">
+                <div class="container">
+                    <div class="caption">
+                        <h1>MELBOURNE.</h1>
+                        <p class="cities">DESTINOS MÁS VISITADOS.</p>
+                        <a href="">Ver mas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('./img/goldcost.jpg')">
+                <div class="container">
+                    <div class="caption">
+                        <h1>GOLD.COST</h1>
+                        <p class="cities">DESTINOS MÁS VISITADOS.</p>
+                        <a href="">Ver mas</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- controls  -->
+        <div class="controls">
+            <div class="prev">
+            </div>
+            <div class="next">></div>
+        </div>
+
+        <!-- indicators -->
+        <div class="indicator">
+        </div>
+
+    </section>
+    <!-- testimonios -->
+    <div class="contenedor_testimonio">
+        <section class="section_testimon">
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonialBox">
+                            <img src="./img/157248.svg" class="quote" width="50px">
+                            <div class="content">
+                                <p>
+                                    Hello Edu me ayudo con todos mis tramites, para continuar viviendo la experiencia y los sue;os ayudandome a tomar las mejores opciones que tenia gracias Andrea por todo Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex repellat beatae facilis?
+                                    Eveniet consectetur ex magni quo minus optio numquam!
+                                </p>
+                                <div class="details">
+                                    <div class="imgBox">
+                                        <img src="./img/depositphotos_21568785-stock-photo-man-pointing.jpg">
+                                    </div>
+                                    <h3>Leonardo Rodirguez<br><span>ITALY</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonialBox">
+                            <img src="./img/157248.svg" class="quote" width="50px">
+                            <div class="content">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, aperiam voluptas. Commodi dicta at ipsum, adipisci facilis expedita nihil obcaecati tempore? Officiis ut ipsam, reprehenderit assumenda dolor laudantium vel minima aut minus veritatis obcaecati
+                                    eaque iste quibusdam eum voluptatem temporibus?
+                                </p>
+                                <div class="details">
+                                    <div class="imgBox">
+                                        <img src="./img/images (1).jpeg">
+                                    </div>
+                                    <h3>SomeOne <br><span>Pais</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonialBox">
+                            <img src="./img/157248.svg" class="quote" width="50px">
+                            <div class="content">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, aperiam voluptas. Commodi dicta at ipsum, adipisci facilis expedita nihil obcaecati tempore? Officiis ut ipsam, reprehenderit assumenda dolor laudantium vel minima aut minus veritatis obcaecati
+                                    eaque iste quibusdam eum voluptatem temporibus?
+                                </p>
+                                <div class="details">
+                                    <div class="imgBox">
+                                        <img src="./img/images (2).jpeg">
+                                    </div>
+                                    <h3>SomeOne Famous<br><span>Creative Designer</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- equipo de trabajo -->
+    <section class="section_equipo">
+        <h1>Conoce a Nuestro Increible Equipo</h1>
+        <div class="container_equipo">
+            <div class="card_equipo">
+                <div class="bg-image">
+                    <img src="./img/27303.jpg" alt="">
+                </div>
+                <div class="pic">
+                    <img src="./img/depositphotos_21568785-stock-photo-man-pointing.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Someone's name</h3>
+                    <span><i class="fas fa-code"></i>designer</span>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius officia dignissimos, quo molestias voluptas alias odit tempora fugiat recusandae exercitationem!</p>
+                    <div class="icons">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-github"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_equipo">
+                <div class="bg-image">
+                    <img src="./img/27303.jpg" alt="">
+                </div>
+                <div class="pic">
+                    <img src="./img/pp.jpeg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Andrea Apellido</h3>
+                    <span><i class="fas fa-code"></i>CEO. Founder</span>
+                    <p>Nuestro objetivo no solo es informar y asesorar sobre destinos y cursos , lo que queremos es darte un experiencia unica, en función de las demandas específicas de nuestros estudiantes y satisfacer las necesidades que ellos tengan.</p>
+                    <div class="icons">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-github"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_equipo">
+                <div class="bg-image">
+                    <img src="./img/27303.jpg" alt="">
+                </div>
+                <div class="pic">
+                    <img src="./img/download.jpeg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Someone's name</h3>
+                    <span><i class="fas fa-code"></i>Web designer</span>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius officia dignissimos, quo molestias voluptas alias odit tempora fugiat recusandae exercitationem!</p>
+                    <div class="icons">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-github"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact -->
+    <section class="contact">
+        <div class="content_contact">
+            <h2>Contact Us </h2>
+            <p>Escribemos para obtener mas informacion o si tienes alguna pregunta, pregutanos porque lo que tus inquietudes son importantes para nosotros.</p>
+        </div>
+        <div class="container_contact">
+            <div class="contactInfo">
+                <div class="box_contac">
+                    <div class="icon_contact"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="text_contact">
+                        <h3>Address</h3>
+                        <p>4671 sugar Camp Road<br>Owatonna,Minnesota<br>55060</p>
+                    </div>
+                </div>
+                <div class="box_contac">
+                    <div class="icon_contact"><i class="fas fa-envelope"></i></div>
+                    <div class="text_contact">
+                        <h3>Phone</h3>
+                        <p>450-993-265</p>
+                    </div>
+                </div>
+                <div class="box_contac">
+                    <div class="icon_contact"><i class="fas fa-phone-volume"></i></div>
+                    <div class="text_contact">
+                        <h3>Email</h3>
+                        <p>HelloEdu@hotmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form>
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Type your Message</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-one md-mb-30 sm-mb-30 footer_1">
+                        <h3>Helloedu.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptate et sapiente iusto libero consequatur nesciunt corporis perferendis nobis voluptas?</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-two md-mb-30 sm-mb-30 footer_1">
+                        <h2>Useful Link.</h2>
+                        <ul>
+                            <li>
+                                <a href="#">Event</a></li>
+                            <li>
+                                <a href="#">Support</a></li>
+                            <li>
+                                <a href="#">Hosting</a></li>
+                            <li>
+                                <a href="#">Career</a></li>
+                            <li>
+                                <a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-three sm-mb-30 footer_1">
+                        <h2>Follow Us</h2>
+                        <p>
+                            Please Follow Us on our Social Media Profile in order to feep updated. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, in!
+                        </p>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-four sm-mb-30 footer_1">
+                        <h2>Our Newletters</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, voluptates?</p>
+                        <form action="">
+                            <input type="email">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="footer-bottom-text">All Rights Reserved by &copy; Helloedu.2021</p>
+    </footer>
+
+
+    <script src="./sass/js/pag1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" , integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" , crossorigin="anonymous" "></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js "></script>
+    <script src="./sass/js/main.js "></script>
+    <script src="./sass/js/carousel.js "></script>
+    <script src="./sass/js/vanilla-tilt.js "></script>
+    <script type="text/javascript ">
+        VanillaTilt.init(document.querySelector(".p_img, .caption, .card, .card_equipo "), {
+            max: 20,
+            speed: 400
+        });
+
+        //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".p_img, .caption, .card, .card_equipo "));
+    </script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 100,
+                modifier: 2,
+                slideShadows: true,
+            },
+            loop: true,
+        });
+    </script>
+
+</body>
+
+</html>
