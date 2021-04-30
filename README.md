@@ -8,7 +8,7 @@ I worked on the design of the full page as well as on the logo._
 
 ## Start 🚀
 
-If you want to see the website template as it was designed, see ** Deployment ** in the following Link
+If you want to see the website template as it was designed, see it  in the following Link
 
    https://helloeduau.netlify.app/
 
